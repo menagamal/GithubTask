@@ -10,6 +10,7 @@
 		D01100A522F6D0D40060FEFD /* RepoCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01100A422F6D0D40060FEFD /* RepoCellViewModel.swift */; };
 		D01100A922F6D63B0060FEFD /* RepoTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01100A822F6D63B0060FEFD /* RepoTableCellView.swift */; };
 		D01100AC22F6DD1B0060FEFD /* Repos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D01100AA22F6DD1B0060FEFD /* Repos.xcdatamodeld */; };
+		D01100B522F6FE5A0060FEFD /* GithubExampleTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01100B422F6FE5A0060FEFD /* GithubExampleTaskTests.swift */; };
 		D075AE9A22F5C5BB002824E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D075AE9922F5C5BB002824E5 /* AppDelegate.swift */; };
 		D075AE9C22F5C5BB002824E5 /* ReposViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D075AE9B22F5C5BB002824E5 /* ReposViewController.swift */; };
 		D075AE9F22F5C5BB002824E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D075AE9D22F5C5BB002824E5 /* Main.storyboard */; };
@@ -34,6 +35,16 @@
 		FF7AEE582C2B40FBB787CFF4 /* Pods_GithubExampleTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9192143654C506AE1115E607 /* Pods_GithubExampleTask.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D01100B722F6FE5A0060FEFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D075AE8E22F5C5BB002824E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D075AE9522F5C5BB002824E5;
+			remoteInfo = GithubExampleTask;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		7B600AB353EB9B38763F8C49 /* Pods-GithubExampleTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubExampleTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-GithubExampleTask/Pods-GithubExampleTask.release.xcconfig"; sourceTree = "<group>"; };
 		9192143654C506AE1115E607 /* Pods_GithubExampleTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GithubExampleTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,6 +52,9 @@
 		D01100A422F6D0D40060FEFD /* RepoCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoCellViewModel.swift; sourceTree = "<group>"; };
 		D01100A822F6D63B0060FEFD /* RepoTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoTableCellView.swift; sourceTree = "<group>"; };
 		D01100AB22F6DD1B0060FEFD /* Repos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Repos.xcdatamodel; sourceTree = "<group>"; };
+		D01100B222F6FE5A0060FEFD /* GithubExampleTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubExampleTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01100B422F6FE5A0060FEFD /* GithubExampleTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubExampleTaskTests.swift; sourceTree = "<group>"; };
+		D01100B622F6FE5A0060FEFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D075AE9622F5C5BB002824E5 /* GithubExampleTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubExampleTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D075AE9922F5C5BB002824E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D075AE9B22F5C5BB002824E5 /* ReposViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +81,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D01100AF22F6FE5A0060FEFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D075AE9322F5C5BB002824E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -104,10 +125,20 @@
 			path = RepoViewController;
 			sourceTree = "<group>";
 		};
+		D01100B322F6FE5A0060FEFD /* GithubExampleTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				D01100B422F6FE5A0060FEFD /* GithubExampleTaskTests.swift */,
+				D01100B622F6FE5A0060FEFD /* Info.plist */,
+			);
+			path = GithubExampleTaskTests;
+			sourceTree = "<group>";
+		};
 		D075AE8D22F5C5BB002824E5 = {
 			isa = PBXGroup;
 			children = (
 				D075AE9822F5C5BB002824E5 /* GithubExampleTask */,
+				D01100B322F6FE5A0060FEFD /* GithubExampleTaskTests */,
 				D075AE9722F5C5BB002824E5 /* Products */,
 				06AB0E0383AED7EDF7113BB6 /* Pods */,
 				3476D176BC3BDBF3B4CE370E /* Frameworks */,
@@ -118,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				D075AE9622F5C5BB002824E5 /* GithubExampleTask.app */,
+				D01100B222F6FE5A0060FEFD /* GithubExampleTaskTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -228,6 +260,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D01100B122F6FE5A0060FEFD /* GithubExampleTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D01100B922F6FE5A0060FEFD /* Build configuration list for PBXNativeTarget "GithubExampleTaskTests" */;
+			buildPhases = (
+				D01100AE22F6FE5A0060FEFD /* Sources */,
+				D01100AF22F6FE5A0060FEFD /* Frameworks */,
+				D01100B022F6FE5A0060FEFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D01100B822F6FE5A0060FEFD /* PBXTargetDependency */,
+			);
+			name = GithubExampleTaskTests;
+			productName = GithubExampleTaskTests;
+			productReference = D01100B222F6FE5A0060FEFD /* GithubExampleTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D075AE9522F5C5BB002824E5 /* GithubExampleTask */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D075AEA822F5C5BD002824E5 /* Build configuration list for PBXNativeTarget "GithubExampleTask" */;
@@ -257,6 +307,10 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Mena Gamal";
 				TargetAttributes = {
+					D01100B122F6FE5A0060FEFD = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = D075AE9522F5C5BB002824E5;
+					};
 					D075AE9522F5C5BB002824E5 = {
 						CreatedOnToolsVersion = 10.2;
 					};
@@ -276,11 +330,19 @@
 			projectRoot = "";
 			targets = (
 				D075AE9522F5C5BB002824E5 /* GithubExampleTask */,
+				D01100B122F6FE5A0060FEFD /* GithubExampleTaskTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D01100B022F6FE5A0060FEFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D075AE9422F5C5BB002824E5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -350,6 +412,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D01100AE22F6FE5A0060FEFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01100B522F6FE5A0060FEFD /* GithubExampleTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D075AE9222F5C5BB002824E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -379,6 +449,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		D01100B822F6FE5A0060FEFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D075AE9522F5C5BB002824E5 /* GithubExampleTask */;
+			targetProxy = D01100B722F6FE5A0060FEFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		D075AE9D22F5C5BB002824E5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -399,6 +477,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D01100BA22F6FE5A0060FEFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GithubExampleTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mena.GithubExampleTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GithubExampleTask.app/GithubExampleTask";
+			};
+			name = Debug;
+		};
+		D01100BB22F6FE5A0060FEFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GithubExampleTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mena.GithubExampleTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GithubExampleTask.app/GithubExampleTask";
+			};
+			name = Release;
+		};
 		D075AEA622F5C5BD002824E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -554,6 +670,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D01100B922F6FE5A0060FEFD /* Build configuration list for PBXNativeTarget "GithubExampleTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01100BA22F6FE5A0060FEFD /* Debug */,
+				D01100BB22F6FE5A0060FEFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D075AE9122F5C5BB002824E5 /* Build configuration list for PBXProject "GithubExampleTask" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

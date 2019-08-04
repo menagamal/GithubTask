@@ -16,6 +16,6 @@ public class Constants {
     public static let API_FAILED_NO_USER_FOUND = 404
     public static var PAGES_COUNT = 1
     public static var HAS_NEXT_PAGE = true
-    public static var USER_NAME = "fabpot     "
+    public static var USER_NAME = "fabpot"
     
 }

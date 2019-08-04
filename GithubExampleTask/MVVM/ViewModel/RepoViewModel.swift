@@ -25,8 +25,11 @@ class RepoViewModel {
         case  wait, idel, onError(str: String) ,getUserRepos(repos:[RepoModel])
     }
     
+    init() {
+        
+    }
     
-    init( view:RepoView,vc: UIViewController) {
+    init(view:RepoView,vc: UIViewController) {
         self.view = view
         self.vc = vc
         self.repoModel = RepoModel(viewModel: self)
